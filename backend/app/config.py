@@ -15,10 +15,10 @@ class Settings(BaseSettings):
     # Google OAuth settings
     google_client_id: str
     google_client_secret: str
-    google_redirect_uri: str = "http://localhost:8000/auth/callback"
+    google_redirect_uri: str = "https://constructure-ai.onrender.com/auth/callback"
     
     # Frontend URL for CORS and redirects
-    frontend_url: str = "http://localhost:3000"
+    frontend_url: str = "https://constructure-ai.vercel.app/"
     
     # JWT settings
     jwt_secret_key: str
